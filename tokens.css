@@ -1,13 +1,13 @@
 :root {
-  --color-paper: #faf7ef;
-  --color-band: #eeebe0;
-  --color-ink: #272b23;
-  --color-muted: #51564c;
-  --color-accent: #344a3d;
-  --color-accent-hover: #223528;
-  --color-on-accent: #fffdf6;
-  --color-rule: #c8c8b9;
-  --color-focus: #795135;
-  --font-display: Georgia, "Times New Roman", serif;
+  --color-paper: #f8faf3;
+  --color-sage: #dfead9;
+  --color-moss: #c6d9bf;
+  --color-mist: #e1eaeb;
+  --color-accent: #203d2b;
+  --color-ink: #25352b;
+  --color-muted: #455749;
+  --color-accent-hover: #142a1d;
+  --color-rule: #a6b9aa;
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-text: "Segoe UI", Arial, sans-serif;
 }

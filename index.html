@@ -6,6 +6,8 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Онлайн-консультации психолога — демо сайта</title>
   <meta name="description" content="Демонстрационная визитка частной онлайн-практики психолога.">
+  <meta name="theme-color" content="#f8faf3">
+  <link rel="preload" as="font" type="font/woff2" href="assets/cormorant-cyrillic.woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,25 +17,24 @@
     <nav aria-label="Разделы сайта">
       <a href="#about">О практике</a>
       <a href="#format">Формат</a>
-      <a href="#contact">Запись</a>
+      <a class="nav-contact" href="#contact">Запись</a>
     </nav>
   </header>
   <main id="main">
     <section class="shell hero" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">Индивидуальные консультации онлайн</p>
+        <p class="section-label">Индивидуальные консультации онлайн</p>
         <h1 id="hero-title">Место для важного разговора</h1>
         <p class="lead">Иногда важно остановиться и вслух сказать о том, что давно занимает мысли. Онлайн-встреча с психологом может стать первым шагом.</p>
-        <a class="button" href="#contact">Как записаться <span aria-hidden="true">↗</span></a>
+        <a class="button" href="#contact">Как записаться</a>
       </div>
       <figure class="hero-image">
-        <img src="assets/chair.webp" alt="Светлое кресло у окна" fetchpriority="high">
+        <img src="assets/light.webp" alt="Светлое кресло у окна за открытой дверью" width="1000" height="1508" fetchpriority="high">
       </figure>
     </section>
 
     <section class="shell about" id="about" aria-labelledby="about-title">
       <div>
-        <p class="eyebrow">О практике</p>
         <h2 id="about-title">Психологическое консультирование</h2>
       </div>
       <div class="about-text">
@@ -45,7 +46,7 @@
     <section class="format-band" id="format" aria-labelledby="format-title">
       <div class="shell format">
         <figure class="format-image">
-          <img src="assets/light.webp" alt="Мягкий дневной свет у окна" loading="lazy">
+          <img src="assets/chair.webp" alt="Кресло рядом с горящим торшером" width="1200" height="1600" loading="lazy">
         </figure>
         <div>
           <h2 id="format-title">Как проходит запись</h2>
@@ -69,13 +70,13 @@
 
     <section class="shell contact" id="contact" aria-labelledby="contact-title">
       <div>
-        <p class="eyebrow">Онлайн-запись</p>
+        <p class="section-label">Онлайн-запись</p>
         <h2 id="contact-title">Выберите мессенджер</h2>
       </div>
       <div class="channels">
         <div class="contact-actions">
-          <button class="button" type="button" data-channel="MAX" aria-controls="channel-status">MAX <span aria-hidden="true">↗</span></button>
-          <button class="button button-secondary" type="button" data-channel="Telegram" aria-controls="channel-status">Telegram <span aria-hidden="true">↗</span></button>
+          <button class="button" type="button" data-channel="MAX" aria-controls="channel-status">MAX</button>
+          <button class="button button-secondary" type="button" data-channel="Telegram" aria-controls="channel-status">Telegram</button>
         </div>
         <p class="channel-status" id="channel-status" role="status">Контакты появятся после согласования сайта.</p>
       </div>
